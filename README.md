@@ -3,6 +3,8 @@
 
 Created server-side APIs using Express.js framework to handle and respond to HTTP requests from clients. Handles GET and POST requests and parse parameters in server-side routes.
 
+[Zookeeper Deployed Site](https://fathomless-waters-02393.herokuapp.com/)
+
 ![!screenshot-index](./public/assets/images/screenshot-index.png)
 ![!screenshot-animals](./public/assets/images/screenshot-animals.png)
 ![!screenshot-zookeepers](./public/assets/images/screenshot-zookeepers.png)
@@ -53,6 +55,8 @@ Start the server by running `npm start` in the command line.
 ## Usage
 
 :computer:
+
+See [Zookeeper Deployed Site](https://fathomless-waters-02393.herokuapp.com/) or see below to run your own server.
 
 Run `npm start` in the command line to start the server.
 
