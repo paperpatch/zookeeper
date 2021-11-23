@@ -1,7 +1,7 @@
 # Zookeeper
 ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
-Node.js command-line app to generate a team profile on a HTML webpage. Uses Object Oriented Programming, Jest, Inquirer and ES6 to dynamically generate a team profile based on inputs.
+Created server-side APIs using Express.js framework to handle and respond to HTTP requests from clients. Handles GET and POST requests and parse parameters in server-side routes.
 
 ![!screenshot-index](./public/assets/images/screenshot-index.png)
 ![!screenshot-animals](./public/assets/images/screenshot-animals.png)
