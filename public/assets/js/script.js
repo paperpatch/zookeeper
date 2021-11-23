@@ -1,4 +1,5 @@
 const $animalForm = document.querySelector('#animal-form');
+const $zookeeperForm = document.querySelector('#zookeeper-form');
 
 const handleAnimalFormSubmit = event => {
   event.preventDefault();
@@ -28,7 +29,7 @@ const handleAnimalFormSubmit = event => {
 
   fetch('/api/animals', {
     method: 'POST',
-    header: {
+    headers: {
       Accept: 'application/json',
       'Content-Type': 'application/json'
     },
@@ -38,7 +39,7 @@ const handleAnimalFormSubmit = event => {
       if (response.ok) {
         return response.json();
       }
-      alert('Error: ' + response.statusText);
+      alert(`Error: ${response.statusText}`);
     })
     .then(postResponse => {
       console.log(postResponse);
